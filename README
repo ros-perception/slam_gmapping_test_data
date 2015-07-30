@@ -1,3 +1,7 @@
 This is a repo that contains bags for tests in gmapping.
 
 History might be re-written to save space.
+
+test_replay_crash.bag: this bag had tf data that was not in the right order and got the replay to crash
+test_turtlebot.bag: this bag is from a turtlebot which has a laser that is not perfectly symmtric. That used to make gmapping to not accept the scan
+test_upside_down.bag: this bag has a laser pointing downward
